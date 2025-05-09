@@ -13,6 +13,7 @@ https://shayanassil.github.io/jack-westin-hero-section-task/
 - Smooth transitions and animations
 - Semantic HTML structure
 - Accessible markup
+- Gradient Animation
 
 ## Technologies Used
 
@@ -21,6 +22,7 @@ https://shayanassil.github.io/jack-westin-hero-section-task/
 - JavaScript (ES6+)
 - Figtree Variable Font
 - Noto Sans
+- Stripe WebGL Gradient Animation JS
 
 ## Browser Support
 
