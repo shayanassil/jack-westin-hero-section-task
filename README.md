@@ -2,6 +2,9 @@
 
 A responsive hero section implementation showcasing modern web development practices.
 
+## Live Demo
+https://shayanassil.github.io/jack-westin-hero-section-task/
+
 ## Features
 
 - Responsive design with fluid layouts
