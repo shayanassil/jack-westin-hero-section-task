@@ -1,6 +1,9 @@
 # Hero Section
 
-A responsive hero section implementation showcasing modern web development practices.
+A responsive hero section implementation showcasing modern web development practices. This is developed for Jack Westin audition task.
+
+## Live Demo
+https://shayanassil.github.io/jack-westin-hero-section-task/
 
 ## Features
 
@@ -10,6 +13,7 @@ A responsive hero section implementation showcasing modern web development pract
 - Smooth transitions and animations
 - Semantic HTML structure
 - Accessible markup
+- Gradient Animation
 
 ## Technologies Used
 
@@ -18,6 +22,7 @@ A responsive hero section implementation showcasing modern web development pract
 - JavaScript (ES6+)
 - Figtree Variable Font
 - Noto Sans
+- Stripe WebGL Gradient Animation JS
 
 ## Browser Support
 
