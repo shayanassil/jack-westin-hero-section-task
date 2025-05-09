@@ -1,6 +1,6 @@
 # Hero Section
 
-A responsive hero section implementation showcasing modern web development practices.
+A responsive hero section implementation showcasing modern web development practices. This is developed for Jack Westin audition task.
 
 ## Live Demo
 https://shayanassil.github.io/jack-westin-hero-section-task/
