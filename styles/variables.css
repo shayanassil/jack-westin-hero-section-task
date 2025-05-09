@@ -1,0 +1,48 @@
+:root {
+  /* Typography */
+  --font-sans: 'Noto Sans', sans-serif;
+  --font-headline: 'Figtree', sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 650;
+  
+  /* Font Sizes */
+  --text-tagline: 24px;
+  --text-title: 48px;
+  --text-body: 16px;
+  
+  /* Line Heights */
+  --line-height-tight: 1.15;
+  --line-height-normal: 1.2;
+  --line-height-relaxed: 1.5;
+  
+  /* Colors */
+  --color-primary: #0A2540;
+  --color-secondary: #435366;
+  --color-background: #F6F9FC;
+  --color-border: #EBEFF5;
+  --color-white: #fff;
+  --color-cta-background: #8E55FF;
+  --color-cta-link: #7936FF;
+  --color-disabled: #D3B4FF;
+  --color-shadow: hsla(254, 70%, 40%, 0.4);
+  
+  
+  /* Layout */
+  --container-max: 1080px;
+  --column-left-width: 335px;
+  --column-right-width: 240px;
+  
+  
+  /* Breakpoints */
+  --bp-mobile: 600px;
+  --bp-tablet: 834px;
+  --bp-desktop: 901px;
+  
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-full: 100px;
+  
+  /* Shadows */
+  --shadow-lg: 0px 14px 20px 0px var(--color-shadow);
+}
