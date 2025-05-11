@@ -2,6 +2,8 @@
 
 A responsive hero section implementation showcasing modern web development practices. This is developed for Jack Westin audition task.
 
+NOTE - I took the liberty to add another WHITE FILL (no image) at the bottom of the left image column (750px - 600px viewport sizes) to prevent from showing empty space. This does not affect the original design, spacing and animations, and only appears exactly at the mentioned range of vieport sizes.
+
 ## Live Demo
 https://shayanassil.github.io/jack-westin-hero-section-task/
 
