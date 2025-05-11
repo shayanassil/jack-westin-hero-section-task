@@ -189,7 +189,7 @@ p, h1 {
     animation: slide-right-stack 6.4s cubic-bezier(0.29, 0.13, 0.32, 1) forwards;
 }
 
-.image-column--left::before,
+.image-column--left::before, .image-column--left::after,
 .image-column--right::before {
     content: '';
     display: block;
@@ -200,6 +200,10 @@ p, h1 {
 }
 
 .image-column--left::before {
+    height: clamp(0px, calc(295px - ((100vw - 1080px) * 4.403)), 295px);
+}
+
+.image-column--left::after {
     height: clamp(0px, calc(295px - ((100vw - 1080px) * 4.403)), 295px);
 }
 
@@ -217,7 +221,7 @@ p, h1 {
    =========================================== */
 #gradient-canvas {
     width: 100%;
-    height: 600%; /* Adjust this value to control the height of the gradient */
+    height: 600%; /* Adjust this value to control the height of the gradient canvas */
     --gradient-color-1: #3344FF;
     --gradient-color-2: #33DDFF;
     --gradient-color-3: #B833FF;
@@ -234,6 +238,62 @@ p, h1 {
     overflow: hidden;
     position: relative;
 }
+
+/* 
+   Old Gradient Divider
+   ===========================================
+   .diagonal-divider .left-gradient,
+   .diagonal-divider .middle-gradient,
+   .diagonal-divider .right-gradient {
+       position: absolute;
+       border-radius: 50%;
+   }
+   
+   .diagonal-divider .left-gradient {
+       width: 798px;
+       height: 729px;
+       top: 0px;
+       left: -400px;
+       background: radial-gradient(circle at center, 
+           rgba(51, 221, 255, 1) 0%,
+           rgba(51, 221, 255, 0.5) 55%,
+           rgba(51, 221, 255, 0) 70%
+       );
+       transform: skewY(-1deg);
+       transform-origin: center center;
+       z-index: 1;
+   }
+   
+   .diagonal-divider .middle-gradient {
+       width: 1026px;
+       height: 1002px;
+       top: -300px;
+       left: 0px;
+       background: radial-gradient(circle at center,
+           rgba(184, 51, 255, 1) 0%,
+           rgba(184, 51, 255, 0.4) 40%,
+           rgba(184, 51, 255, 0) 70%
+       );
+       transform: skewY(11deg);
+       transform-origin: center center;
+       z-index: 1;
+   }
+   
+   .diagonal-divider .right-gradient {
+       width: 1146px;
+       height: 956px;
+       top: -350px;
+       left: 500px;
+       background: radial-gradient(circle at center,
+           rgba(51, 68, 255, 1) 0%,
+           rgba(51, 68, 255, 0.4) 50%,
+           rgba(51, 68, 255, 0) 70%
+       );
+       transform: skewY(11deg);
+       transform-origin: center center;
+       z-index: 1;
+   }
+   */
 
 /* ===========================================
    Animations

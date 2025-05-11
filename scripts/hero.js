@@ -11,7 +11,7 @@ function applyDiagonalClip(angleDeg = 11) {
     // Convert offset to percentage of height
     const yOffsetPercent = (offset / height) * 100;
   
-    hero.style.clipPath = `polygon(0 0, 100% 0, 100% ${100 - yOffsetPercent}%, 0 100%)`;
+    hero.style.clipPath = `polygon(0 0, 100% 0, 100% ${100 - yOffsetPercent + 5}%, 0 100%)`;
 }
 
 // Debounce resize handler for better performance

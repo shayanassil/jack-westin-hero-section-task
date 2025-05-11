@@ -57,19 +57,21 @@
                     <img src="assets/images/Course.png" alt="Interface Preview">
                 </div>
             </div>
-            <div class="diagonal-divider" aria-hidden="true">
-                <canvas id="gradient-canvas" data-js-darken-top data-transition-in></canvas>
-            </div>
-            <script>
-                var gradient = new Gradient()
-                gradient.initGradient('#gradient-canvas');
-            </script>
-            <!--<div class="diagonal-divider" aria-hidden="true">
-                <div class="left-gradient"></div>
-                <div class="middle-gradient"></div>
-                <div class="right-gradient"></div>
-            </div>-->
         </section>
+        <div class="diagonal-divider" aria-hidden="true">
+            <canvas id="gradient-canvas" data-js-darken-top data-transition-in></canvas>
+        </div>
+        <script>
+            var gradient = new Gradient()
+            gradient.initGradient('#gradient-canvas');
+        </script>
+        <!-- This is the old gradient divider mimicking the exact Figma design and positioning.
+                The CSS is commented out. In case we need to revert to the old design.
+        <div class="diagonal-divider" aria-hidden="true">
+            <div class="left-gradient"></div>
+            <div class="middle-gradient"></div>
+            <div class="right-gradient"></div>
+        </div>-->
     </div>
     <main class="container">
         <!-- Main Page Content -->
